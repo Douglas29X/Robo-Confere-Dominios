@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 from datetime import datetime
-import pdb
 import xlrd
 
 print("Iniciando nosso robô...\n")
