@@ -15,7 +15,7 @@ sheet = workbook.sheet_by_index(0) #acessando a primeira planilha (caso tenha ma
 for linha in range(0,5):
 	dominios.append(sheet.cell_value(linha,0)) #esse metodo recebe a linha e a coluna
 
-driver = webdriver.Chrome('C:/Users/funky/Desktop/Aulas Douglas/Robos/chromedriver') #abre a guia do chrome
+driver = webdriver.Chrome() #abre a guia do chrome pelo chromedriver
 driver.get("https://registro.br") #abre o site
 
 for dominio in dominios:
